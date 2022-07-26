@@ -1,0 +1,5 @@
+---
+- hostname: website1.com
+  dir: ./html/website1
+- hostname: website2.com
+  dir: ./html/website2
