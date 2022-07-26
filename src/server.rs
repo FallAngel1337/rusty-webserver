@@ -44,7 +44,6 @@ where
         
         request.parse(&buf).unwrap();
         
-        
         let dir = dir.as_ref().display();
         let path = request.path.unwrap();
         let path = if path == "/" { "/index.html" } else { path };
